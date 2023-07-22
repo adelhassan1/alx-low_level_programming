@@ -1,17 +1,18 @@
 #include <stdio.h>
-
 /**
- * main - print without printf
- *
- * Description: using write func
- *
- * Return: 0
+ * main - printing without printf or puts
+ * Return: 0 (success)
  */
 
 int main(void)
 {
-	const char* message = "and that piece of art is useful\" - Dpra Lpr[ar. 2015-10-19";
-	size_t len = strlen(message);
-	write(1, message, len);
-	return (0);
+	char s[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	int i;
+
+	for (i = 0; i < 58; i++)
+	{
+		putchar(s[i]);
+	}
+	putchar('\n');
+	return (1);
 }
