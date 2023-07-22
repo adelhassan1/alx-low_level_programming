@@ -3,10 +3,12 @@
 /*
  * main - sizeof
  *
+ * Description: sizeof
+ *
  * Return: 0
  */
 
-int main()
+int main(void)
 {
 	char c;
 	int i;

@@ -3,10 +3,12 @@
 /*
  * main - print without printf
  *
+ * Description: using write func
+ *
  * Return: 0
  */
 
-int main()
+int main(void)
 {
 	const char* message = and that piece of art is useful\" - Dpra Lpr[ar. 2015-10-19";
 	size_t len = strlen(message);
