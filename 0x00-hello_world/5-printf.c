@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - printing another str
  *
  * Description: printf

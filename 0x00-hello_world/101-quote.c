@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - print without printf
  *
  * Description: using write func

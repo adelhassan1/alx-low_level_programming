@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - sizeof
  *
  * Description: sizeof
