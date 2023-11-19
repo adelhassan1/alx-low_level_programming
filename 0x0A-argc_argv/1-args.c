@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #define UNUSED(argv) void(argv)
 /**
@@ -9,8 +10,8 @@
  * Return: Always 0.
  */
 
-void main(argc, char **argv)
+void main(int argc, char **argv)
 {
 	printf("%d\n", argc);
-	return 0;
+	return;
 }

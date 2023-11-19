@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 /**
  * main - multiplying two nums.
@@ -8,7 +9,7 @@
  * Return: Always 0.
  */
 
-void main (argc, char **argv)
+void main (int argc, char **argv)
 {
 	int sum;
 	if (argc < 3)
@@ -19,5 +20,5 @@ void main (argc, char **argv)
 		sum = atoi(argv[1]) * atoi(argv[2]);
 		printf("%d\n", sum);
 	}
-	return 0;
+	return;
 }

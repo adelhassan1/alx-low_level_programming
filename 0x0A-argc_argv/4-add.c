@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 /**
  * main - add positive numbers.
@@ -8,7 +9,7 @@
  * Return: Always 0.
  */
 
-void main (argc, char **argv)
+void main (int argc, char **argv)
 {
 	int i, sum = 0;
 	if (argc == 1)
@@ -28,5 +29,5 @@ void main (argc, char **argv)
 			}
 		}
 	}
-	return 0;
+	return;
 }
