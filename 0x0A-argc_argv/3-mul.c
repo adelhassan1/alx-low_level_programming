@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
  * main - multiplying two nums.
  *
@@ -20,5 +20,5 @@ void main (int argc, char **argv)
 		sum = atoi(argv[1]) * atoi(argv[2]);
 		printf("%d\n", sum);
 	}
-	return;
+	return 0;
 }

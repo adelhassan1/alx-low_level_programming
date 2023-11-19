@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
  * main - add positive numbers.
  * 
@@ -29,5 +29,5 @@ void main (int argc, char **argv)
 			}
 		}
 	}
-	return;
+	return 0;
 }

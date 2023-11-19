@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-#define UNUSED(argv) void(argv)
+
 /**
  * main - return the number of args given.
  *
@@ -10,7 +9,7 @@
  * Return: Always 0.
  */
 
-int main(int argc, char **argv)
+int main(int __attribute__((__unused__)) argc, char **argv)
 {
 	printf("%d\n", argc);
 	return 0;
