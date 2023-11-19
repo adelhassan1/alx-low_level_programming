@@ -10,8 +10,8 @@
  * Return: Always 0.
  */
 
-void main(int argc, char **argv)
+int main(int argc, char **argv)
 {
 	printf("%d\n", argc);
-	return;
+	return 0;
 }
