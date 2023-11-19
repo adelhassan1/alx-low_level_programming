@@ -9,7 +9,7 @@
  * Return: Always 0.
  */
 
-void main(argc, char **argv)
+void main(argc, char *argv[])
 {
 	printf("%s\n", argv[0]);
 	return 0;
