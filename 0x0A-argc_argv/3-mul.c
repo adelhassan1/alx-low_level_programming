@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - multiplying two nums.
@@ -9,13 +10,13 @@
  * Return: Always 0.
  */
 
-void main(int argc, char **argv)
+int main(int argc, char **argv)
 {
 	int sum;
 
 	if (argc < 3)
 	{
-		printf("Error")
+		printf("Error");
 	} else
 	{
 		sum = atoi(argv[1]) * atoi(argv[2]);
