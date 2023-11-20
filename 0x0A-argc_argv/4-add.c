@@ -3,8 +3,8 @@
 /**
  * main - add positive numbers.
  * 
- * @argc - number of args.
- * @argv - array of args.
+ * @argc: number of args.
+ * @argv: array of args.
  *
  * Return: Always 0.
  */
