@@ -4,7 +4,7 @@
  * add_node_end -  adds a new node at the end of a list_t list.
  *
  * @head: pointer to the list.
- * @st: string to be duplicated.
+ * @str: string to be duplicated.
  *
  * Return: the address of the new element, or NULL if it failed.
  */
