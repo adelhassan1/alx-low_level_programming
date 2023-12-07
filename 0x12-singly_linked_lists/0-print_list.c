@@ -4,7 +4,7 @@
 /**
  * print_list - prints all the elements of a list_t list.
  *
- * @h: pointer to list_t.
+ * @h: the header.
  *
  * Return: the number of the nodes.
  */
@@ -15,7 +15,7 @@ size_t print_list(const list_t *h)
 
 	while (h != NULL)
 	{
-		if (str == NULL)
+		if (h->str == NULL)
 			printf("[0] (nil)\n");
 		else
 			printf("[%d] %s\n", h->len, h->str);
