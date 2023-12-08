@@ -1,4 +1,4 @@
-#include <stdio.o>
+#include <stdio.h>
 
 void __attribute__((constructor)) first(void);
 
