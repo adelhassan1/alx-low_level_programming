@@ -3,11 +3,11 @@
 void __attribute__((constructor)) hare(void);
 
 /**
- * first - print a string before the main func.
+ * hare - Prints a string before the
+ *        main function is executed.
  */
-
-hare(void)
+void hare(void)
 {
 	printf("You're beat! and yet, you must allow,\n"
-			"I bore my house upon my back!\n");
+		"I bore my house upon my back!\n");
 }
