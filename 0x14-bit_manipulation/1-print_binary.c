@@ -23,6 +23,4 @@ void print_binary(unsigned long int n)
         _putchar(48 + bit);
         n = n >> 1;
     }
-    _putchar('\n');
-    
 }
