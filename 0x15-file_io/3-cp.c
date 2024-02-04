@@ -53,6 +53,11 @@ int cp_file(char *file_from, char *file_to)
 	while (actual_read == 1024)
 	{
 		actual_read = read(fd_from, buffer, 1024);
+		if (actual_read < 0)
+		{
+			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
+			exit(98);
+		}
 		if (write(fd_to, buffer, actual_read) < 0)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
