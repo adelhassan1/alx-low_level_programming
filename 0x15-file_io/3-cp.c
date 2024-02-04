@@ -4,11 +4,11 @@ int cp_file(char *file_from, char *file_to);
 
 /**
  * main - a program that copies the content of a file to another file.
- * 
+ *
  * @ac: number of args.
  * @av: args.
  *
- * Return: 0. 
+ * Return: 0.
  */
 
 int main(int ac, char **av)
@@ -46,8 +46,8 @@ int cp_file(char *file_from, char *file_to)
 	}
 	if (fd_to < 0)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't write to file %s\n", file_to);
-		exit(98);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
+		exit(99);
 	}
 
 	while (actual_read == 1024)
