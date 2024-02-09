@@ -22,5 +22,5 @@ int _isalpha(int c)
 		if (j == c)
 			return (1);
 	}
-	return(0);
+	return (0);
 }
