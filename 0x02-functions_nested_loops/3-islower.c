@@ -3,7 +3,7 @@
 /**
  * _islower - checks for a lowercase
  *
- *@c: ammar
+ *@c: char
  *
  * Return: 1 or 0
  */
@@ -15,9 +15,9 @@ int _islower(int c)
 	for (i = 'a'; i <= 'z'; i++)
 	{
 		if (i == c)
-			return (1)
+			return (1);
 		else
-			return (0)
+			return (0);
 	}
 	_putchar('\n');
 }
