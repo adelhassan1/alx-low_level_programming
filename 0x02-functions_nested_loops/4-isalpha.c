@@ -16,15 +16,11 @@ int _isalpha(int c)
 	{
 		if (i == c)
 			return (1);
-		else
-			return (0);
 	}
 	for (j = 'A'; j <= 'Z'; j++)
 	{
 		if (j == c)
 			return (1);
-		else
-			return (0);
 	}
-	_putchar('\n');
+	return(0);
 }
